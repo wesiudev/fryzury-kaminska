@@ -5,7 +5,7 @@ import logo from "../assets/logo-fryzjer-grudziadz-kaminska.png";
 export default function Footer() {
   return (
     <div className="bg-green-500 bg-opacity-20 flex items-center justify-center py-12 lg:mx-[7vw] 2xl:mx-[12vw] mt-12 font-coco">
-      <div className="grid grid-cols-2 lg:grid-cols-3 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
         <Image
           src={logo}
           alt="logo fryzjer grudziadz kaminska"
