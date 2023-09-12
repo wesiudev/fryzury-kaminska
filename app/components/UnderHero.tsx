@@ -1,4 +1,4 @@
-import avatar from "@/assets/fryzjer-grudziadz-kaminska.png";
+import avatar from "../assets/assets/fryzjer-grudziadz-kaminska.png";
 import Image from "next/image";
 
 export default function UnderHero() {

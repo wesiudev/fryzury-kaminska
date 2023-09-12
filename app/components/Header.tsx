@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-fryzjer-grudziadz-kaminska.png";
+import logo from "../assets/assets/logo-fryzjer-grudziadz-kaminska.png";
 import Image from "next/image";
 import Link from "next/link";
 export default function Header() {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
-import logo from "@/assets/logo-fryzjer-grudziadz-kaminska.png";
+import logo from "../assets/assets/logo-fryzjer-grudziadz-kaminska.png";
 export default function Footer() {
   return (
     <div className="bg-green-500 bg-opacity-20 flex items-center justify-center py-12 lg:mx-[7vw] 2xl:mx-[12vw] mt-12 font-coco">
