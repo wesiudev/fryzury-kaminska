@@ -1,10 +1,10 @@
 import Image from "next/image";
-import grid1 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-1.jpg";
-import grid2 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-2.jpg";
-import grid3 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-3.jpg";
-import grid4 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-4.jpg";
-import grid5 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-5.jpg";
-import grid6 from "@/app/assets/kaminska-grudziadz-fryzjer-grid-6.jpg";
+import grid1 from "@/app/assets/kaminska-grudziadz-fryzjer-grid1.jpg";
+import grid2 from "@/app/assets/kaminska-grudziadz-fryzjer-grid2.jpg";
+import grid3 from "@/app/assets/kaminska-grudziadz-fryzjer-grid3.jpg";
+import grid4 from "@/app/assets/kaminska-grudziadz-fryzjer-grid4.jpg";
+import grid5 from "@/app/assets/kaminska-grudziadz-fryzjer-grid5.jpg";
+import grid6 from "@/app/assets/kaminska-grudziadz-fryzjer-grid6.jpg";
 export default function Clients() {
   return (
     <div className="w-full px-3 lg:px-[7vw] 2xl:px-[12vw] font-coco -mt-24">
