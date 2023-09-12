@@ -1,4 +1,4 @@
-import avatar from "../assets/kaminska-grudziadz-fryzjer-grid-3.jpg";
+import avatar from "../assets/kaminska-grudziadz-fryzjer-grid3.jpg";
 import Image from "next/image";
 
 export default function Services() {
