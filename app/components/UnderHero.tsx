@@ -10,8 +10,8 @@ export default function UnderHero() {
           <div className="w-full mt-6 lg:mt-0  bg-green-500 px-3 lg:px-0">
             <Image
               src={avatar}
-              width={1024}
-              height={1024}
+              width={1280}
+              height={1280}
               alt="Roksana Kamińska Fryzjerka Grudziądz"
               className="mx-auto w-auto h-[90%] lg:h-full relative z-50"
             />

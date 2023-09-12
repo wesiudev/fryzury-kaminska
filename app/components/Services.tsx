@@ -43,8 +43,8 @@ export default function Services() {
           <div className="w-full mt-12 lg:mt-0 bg-gray-500 lg:bg-green-500 bg-opacity-20 relative z-50">
             <Image
               src={avatar}
-              width={1024}
-              height={1024}
+              width={1280}
+              height={1280}
               alt="Roksana Kamińska Fryzjerka Grudziądz"
               className="mx-auto w-auto h-full "
             />
