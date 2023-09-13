@@ -7,8 +7,8 @@ import grid5 from "../assets/kaminska-grudziadz-fryzjer-grid5.jpg";
 import grid6 from "../assets/kaminska-grudziadz-fryzjer-grid6.jpg";
 export default function Clients() {
   return (
-    <div className="w-full px-3 lg:px-[7vw] 2xl:px-[12vw] font-coco -mt-24">
-      <h1 className="border-r-[8px] border-l-[8px] border-green-500 text-5xl w-full text-center px-6 py-6 bg-gray-100 font-bold mb-6">
+    <div className="w-full px-3 lg:px-[7vw] 2xl:px-[12vw] font-coco -mt-36">
+      <h1 className="border-r-[8px] border-l-[8px] border-green-500 text-3xl lg:text-5xl w-full text-center px-6 py-6 bg-gray-100 font-bold mb-6">
         Dołącz do zadowolonych klientek!
       </h1>
       <div className="columns-2 space-y-4">

@@ -19,7 +19,7 @@ export default function UnderHero() {
         </div>
 
         <div className="flex flex-col lg:pl-12 h-full mt-12 lg:mt-0 w-full">
-          <h1 className="border-r-[8px] border-l-[8px] lg:border-l-[0px] border-green-500 text-5xl w-full text-center px-6 py-6 bg-gray-100 font-bold">
+          <h1 className="border-r-[8px] border-l-[8px] lg:border-l-[0px] border-green-500 text-3xl lg:text-5xl w-full text-center px-6 py-6 bg-gray-100 font-bold">
             KIM JESTEM?
           </h1>
           <p className="pt-6 text-3xl leading-relaxed">
