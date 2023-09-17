@@ -11,7 +11,7 @@ export default function Hero() {
               Umów się dziś i zadbaj o swoje włosy!
             </div>
             <button className="w-max mx-auto lg:mx-0 py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl">
-              <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-4 -left-4 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"></div>
+              <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-2 -left-2 group-hover:translate-x-4 group-hover:-translate-y-4 duration-150"></div>
               Kontakt
             </button>
           </div>

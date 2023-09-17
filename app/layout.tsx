@@ -28,9 +28,8 @@ export default function RootLayout({
      w-full overflow-x-hidden bg-white`}
       >
         {" "}
-        <Header />
+        
         {children}
-        <Footer />
       </body>
     </html>
   );

@@ -34,21 +34,20 @@ export default function Services() {
             </div>
           </div>
           <button className="w-max mx-auto py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl bottom-0">
-            <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-4 -left-4 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"></div>
+            <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-2 -left-2 group-hover:translate-x-4 group-hover:-translate-y-4 duration-150"></div>
             Kontakt
           </button>
         </div>
         <div className="relative flex justify-center h-3/4 w-full lg:w-max mx-auto">
           <div className="absolute w-full h-full bg-gray-500 lg:-right-12 lg:-top-12 bg-opacity-20 hidden lg:block"></div>
-          <div className="w-full mt-12 lg:mt-0 bg-gray-500 lg:bg-green-500 bg-opacity-20 relative z-50">
-            <Image
-              src={avatar}
-              width={1280}
-              height={1280}
-              alt="Roksana Kamińska Fryzjerka Grudziądz"
-              className="mx-auto w-auto h-full "
-            />
-          </div>
+
+          <Image
+            src={avatar}
+            width={1280}
+            height={1280}
+            alt="Roksana Kamińska Fryzjerka Grudziądz"
+            className="mx-auto w-auto h-full relative z-50 mt-12 lg:mt-0"
+          />
         </div>
       </div>
     </section>
