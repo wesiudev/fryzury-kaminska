@@ -43,7 +43,7 @@ export default function Services() {
 
           <Image
             src={avatar}
-            width={1280}
+            width={640}
             height={1280}
             alt="Roksana Kamińska Fryzjerka Grudziądz"
             className="mx-auto w-auto h-full relative z-50 mt-12 lg:mt-0"
