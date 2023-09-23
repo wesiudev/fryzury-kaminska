@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImage from "../assets/kaminska-grudziadz-fryzjer-hero.jpg";
+import heroImage from "/assets/kaminska-grudziadz-fryzjer-hero.jpg";
 export default function Hero() {
   return (
     <div className="w-screen min-h-[110vh] flex items-center justify-center lg:justify-between px-3 lg:px-[7vw] 2xl:px-[12vw] drop-shadow-md shadow-black">
