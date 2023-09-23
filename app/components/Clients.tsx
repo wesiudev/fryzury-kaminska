@@ -12,7 +12,7 @@ export default function Clients({ images }: any) {
       <div className="columns-2 lg:columns-3 mt-3">
         {images.images.map((image: any, i: number) => (
           <Image
-            width={1024}
+            width={512}
             height={1024}
             key={i}
             src={image.src}
