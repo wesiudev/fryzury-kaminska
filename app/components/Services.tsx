@@ -42,7 +42,7 @@ export default function Services() {
             offset={-100}
             duration={500}
             to="kontakt"
-            className="w-max mx-auto lg:mx-0 py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl"
+            className="w-max mx-auto py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl bottom-0"
           >
             <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-2 -left-2 group-hover:translate-x-4 group-hover:-translate-y-4 duration-150"></div>
             Kontakt
