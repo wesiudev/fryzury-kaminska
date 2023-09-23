@@ -9,6 +9,7 @@ export default function AdminLayout({
   children: React.ReactNode;
 }) {
   const [user, loading] = useAuthState(auth);
+
   return (
     <div className="w-full font-coco">
       {user ? (

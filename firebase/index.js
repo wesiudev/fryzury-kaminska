@@ -1,17 +1,12 @@
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
-  collection,
-  getDocs,
-  query,
-  orderBy,
-  documentId,
-  where,
   doc,
   getDoc,
   setDoc,
   updateDoc,
   arrayUnion,
+  arrayRemove,
 } from "firebase/firestore/lite";
 import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
@@ -47,5 +42,11 @@ async function addImage(websiteName, imageData) {
     });
   }
 }
+async function deleteImage(websiteName, imageData) {
+  const docRef = doc(db, websiteName, "images");
+  await updateDoc(docRef, {
+    images: arrayRemove(imageData),
+  });
+}
 
-export { getImages, addImage, storage, auth };
+export { getImages, addImage, deleteImage, storage, auth };

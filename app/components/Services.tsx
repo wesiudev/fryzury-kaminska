@@ -28,7 +28,7 @@ export default function Services() {
             <div className="flex flex-col text-center w-full relative">
               <div className="absolute left-3 lg:-left-3 top-[50%] -translate-y-[50%] bg-green-500 h-6 w-6 rounded-full"></div>
               <h1 className="font-bold text-3xl lg:text-5xl">Dodatkowe</h1>
-              <h2 className="font-normal italic mt-4 text-2xl">
+              <h2 className="font-normal italic mt-4 text-2xl px-12">
                 Ułożenia, czesanie, upięcia
               </h2>
             </div>
