@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import heroImage from "@/public/assets/kaminska-grudziadz-fryzjer-hero.jpg";
+import * as Scroll from "react-scroll";
 export default function Hero() {
+  let ScrollTo = Scroll.Link;
   return (
     <div className="w-screen min-h-[110vh] flex items-center justify-center lg:justify-between px-3 lg:px-[7vw] 2xl:px-[12vw] drop-shadow-md shadow-black">
       <div className="absolute -bottom-12 left-0 lg:block hidden h-[50vh] bg-green-400 w-1/2  opacity-40 rounded-tr-full"></div>
@@ -10,10 +13,17 @@ export default function Hero() {
             <div className="relative z-50 font-bold my-auto  bg-gray-100 p-6 lg:pl-12 border-l-[12px] border-green-500 mt-56 lg:mt-24 xl:mt-36">
               Umów się dziś i zadbaj o swoje włosy!
             </div>
-            <button className="w-max mx-auto lg:mx-0 py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl">
+            <ScrollTo
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              to="kontakt"
+              className="w-max mx-auto lg:mx-0 py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl"
+            >
               <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-2 -left-2 group-hover:translate-x-4 group-hover:-translate-y-4 duration-150"></div>
               Kontakt
-            </button>
+            </ScrollTo>
           </div>
         </div>
         <div className="flex items-center lg:justify-end h-full mt-12 lg:mt-0">

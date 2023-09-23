@@ -1,7 +1,10 @@
+"use client";
 import avatar from "@/public/assets/kaminska-grudziadz-fryzjer-grid3.jpg";
 import Image from "next/image";
+import * as Scroll from "react-scroll";
 
 export default function Services() {
+  let ScrollTo = Scroll.Link;
   return (
     <section className="min-h-screen w-screen relative font-coco drop-shadow-md shadow-black px-6 mt-12  lg:px-[7vw] 2xl:px-[12vw]">
       <div className="absolute -top-24 right-0 lg:block hidden h-5 bg-green-400 w-1/2 lg:w-1/4 -mt-36 opacity-40 rounded-l-full"></div>
@@ -33,10 +36,17 @@ export default function Services() {
               </h2>
             </div>
           </div>
-          <button className="w-max mx-auto py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl bottom-0">
+          <ScrollTo
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            to="kontakt"
+            className="w-max mx-auto lg:mx-0 py-3 px-24 bg-green-500 mt-12 lg:mt-24 relative group rounded-md text-xl"
+          >
             <div className="absolute w-full h-full p-3 border-[1px] rounded-md border-black -bottom-2 -left-2 group-hover:translate-x-4 group-hover:-translate-y-4 duration-150"></div>
             Kontakt
-          </button>
+          </ScrollTo>
         </div>
         <div className="relative flex justify-center h-3/4 w-full lg:w-max mx-auto">
           <div className="absolute w-full h-full bg-gray-500 lg:-right-12 lg:-top-12 bg-opacity-20 hidden lg:block"></div>

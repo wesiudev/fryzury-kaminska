@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 export default function Contact() {
   return (
     <section
-      id="portfolio"
+      id="kontakt"
       className="w-full px-3 lg:px-[7vw] 2xl:px-[12vw] font-coco mt-12"
     >
       <h1 className="border-r-[8px] border-l-[8px] border-green-500 text-3xl lg:text-5xl w-full text-center px-6 py-6 bg-gray-100 font-bold mb-6">
