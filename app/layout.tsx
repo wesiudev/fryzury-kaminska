@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export const metadata: Metadata = {
   title: "FryzuryKaminska.pl - Roksana Kamińska - Usługi fryzjerskie",
   description:

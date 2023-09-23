@@ -1,6 +1,5 @@
 import Image from "next/image";
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+
 export default function Clients({ images }: any) {
   return (
     <section
