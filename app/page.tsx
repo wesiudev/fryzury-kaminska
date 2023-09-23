@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import { getImages } from "@/firebase";
 import Clients from "./components/Clients";
 import Contact from "./components/Contact";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export default async function Home() {
   const images = await getImages("fryzurykaminska");
 
