@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     icon: "favicon.png",
   },
 };
-
+export const dynamic = "force-dynamic";
 export default function RootLayout({
   children,
 }: {
@@ -28,7 +28,6 @@ export default function RootLayout({
      w-full overflow-x-hidden bg-white`}
       >
         {" "}
-        
         {children}
       </body>
     </html>
