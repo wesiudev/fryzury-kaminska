@@ -16,22 +16,22 @@ export default function Services() {
           <div className="flex flex-col items-start justify-start mt-12 space-y-12">
             <div className="flex flex-col text-center w-full relative">
               <div className="absolute left-3 lg:-left-3 top-[50%] -translate-y-[50%] bg-green-500 h-6 w-6 rounded-full"></div>
-              <h1 className="font-bold text-3xl lg:text-5xl">Strzyżenie</h1>
-              <h2 className="font-normal italic mt-4 text-2xl">
+              <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl">Strzyżenie</h1>
+              <h2 className="font-normal italic mt-4 text-xl xl:text-2xl">
                 męskie i damskie
               </h2>
             </div>
             <div className="flex flex-col text-center w-full relative">
               <div className="absolute left-3 lg:-left-3 top-[50%] -translate-y-[50%] bg-green-500 h-6 w-6 rounded-full"></div>
-              <h1 className="font-bold text-3xl lg:text-5xl">Koloryzacja</h1>
-              <h2 className="font-normal italic mt-4 text-2xl px-12">
+              <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl">Koloryzacja</h1>
+              <h2 className="font-normal italic mt-4 text-xl xl:text-2xl px-12">
                 jednolity kolor, pasemka, sombre, ombre, balleyage
               </h2>
             </div>
             <div className="flex flex-col text-center w-full relative">
               <div className="absolute left-3 lg:-left-3 top-[50%] -translate-y-[50%] bg-green-500 h-6 w-6 rounded-full"></div>
-              <h1 className="font-bold text-3xl lg:text-5xl">Dodatkowe</h1>
-              <h2 className="font-normal italic mt-4 text-2xl px-12">
+              <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl">Dodatkowe</h1>
+              <h2 className="font-normal italic mt-4 text-xl xl:text-2xl px-12">
                 Ułożenia, czesanie, upięcia
               </h2>
             </div>

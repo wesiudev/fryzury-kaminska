@@ -13,11 +13,11 @@ export default function Contact() {
       </h1>
       <div className="grid grid-cols-1 xl:grid-cols-2  gap-6">
         <Link
-          href="tel:+48721417156"
+          href="tel:+48698409584"
           className="flex flex-row items-center justify-center py-6 bg-green-300 text-3xl"
         >
           <FaPhone className="mr-3 " />
-          721417156
+          698409584
         </Link>
         <Link
           href="mailto:kaminskaroksana471@gmail.com"
